@@ -1,0 +1,9 @@
+[project]
+name = "sae-autonomous-drone"
+version = "0.1.0"
+description = "Autonomous payload-delivery drone for the SAE ADDC challenge"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,4 @@
+# Everything needed to run the unit tests on a laptop (no drone or Pi camera required).
+numpy>=1.21
+opencv-python>=4.7
+pytest>=7
