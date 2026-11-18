@@ -1,0 +1,10 @@
+# Runtime dependencies for the companion computer (Raspberry Pi).
+# DroneKit 2.9.2 does not import on Python 3.10+, so use Python 3.9.
+dronekit==2.9.2
+pymavlink>=2.4.37
+numpy>=1.21,<2
+opencv-python>=4.5
+pyzbar>=0.1.9
+
+# picamera2 / libcamera are installed through apt on Raspberry Pi OS:
+#   sudo apt install python3-picamera2 libzbar0
