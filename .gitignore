@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Flight logs produced by MAVProxy / ground stations
+*.tlog
+*.tlog.raw
+
+# Runtime output
+qr_content.txt
+calibration_images/
+calibration_test_undistorted.jpg
+calibration_comparison.jpg
+single_frame_capture_test.jpg
